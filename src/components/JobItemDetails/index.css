@@ -1,0 +1,164 @@
+.jobs-details-container {
+  min-height: 100vh;
+  background-color: #000;
+  padding: 40px;
+}
+
+.job-item-details-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #2c364c;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.company-details-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.company-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  line-height: 0;
+}
+
+.star-icon {
+  color: #fbbf24;
+  margin-right: 7px;
+}
+
+.company-location-salary-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  margin-bottom: 0;
+  font-weight: 800;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+}
+
+.location {
+  margin-right: 10px;
+}
+
+.location-icon {
+  margin-right: 7px;
+}
+
+.employement-icon {
+  margin-right: 7px;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  border-top: 2px solid #f1f5f9;
+}
+
+.descrip-website-link-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.website-link-anchor-text {
+  color: #4f46e5;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.visit-icon {
+  margin-left: 8px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.description {
+  margin-top: 0;
+}
+
+.jobs-details-loader-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.skills-container {
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skills-items {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+  width: 200px;
+}
+
+.skills-image {
+  width: 30px;
+  margin-right: 12px;
+}
+
+.life-at-company-container {
+  display: flex;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.life-at-company-image {
+  width: 200px;
+  margin-left: 10px;
+}
+
+similar-jobs-heading {
+  font-size: 24px;
+  color: #fff;
+}
+
+.similar-jobs-list-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.failure-container {
+  height: 80vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-iamge {
+  width: 30%;
+}
